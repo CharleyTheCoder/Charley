@@ -25,3 +25,7 @@ links.forEach(link => {
         setTimeout(() => ripple.remove(), 500);
     });
 });
+// Click to enter functionality
+document.getElementById('enter-screen').addEventListener('click', function() {
+    this.style.display = 'none';
+});
